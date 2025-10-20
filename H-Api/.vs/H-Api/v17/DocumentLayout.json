@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code related\\HotelAPI\\H-Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|d:\\code related\\hotelapi\\h-api\\h-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|solutionrelative:h-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\appsettings.json",
+              "RelativeDocumentMoniker": "H-Api\\appsettings.json",
+              "ToolTip": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\appsettings.json",
+              "RelativeToolTip": "H-Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-20T13:51:00.653Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

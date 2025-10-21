@@ -12,5 +12,6 @@ namespace H_Api.Models
 
         [ForeignKey("EmployeeRole")]
         public virtual Role Role { get; set; }
+        public virtual ICollection<Employee> Employees { get; set; }
     }
 }

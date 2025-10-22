@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Code related\\HotelAPI\\H-Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|d:\\code related\\hotelapi\\h-api\\h-api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|solutionrelative:h-api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|d:\\code related\\hotelapi\\h-api\\h-api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|solutionrelative:h-api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|d:\\code related\\hotelapi\\h-api\\h-api\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|solutionrelative:h-api\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|solutionrelative:h-api\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|d:\\code related\\hotelapi\\h-api\\h-api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|solutionrelative:h-api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|d:\\code related\\hotelapi\\h-api\\h-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{005556D0-3B58-4550-AD27-6D4401CEC562}|H-Api\\H-Api.csproj|solutionrelative:h-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "H-Api\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "H-Api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:53:34.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Reservation.cs",
               "DocumentMoniker": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "H-Api\\Models\\Reservation.cs",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "H-Api\\Models\\Reservation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:29:26.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T15:29:26.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "guest.cs",
               "DocumentMoniker": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\Models\\guest.cs",
               "RelativeDocumentMoniker": "H-Api\\Models\\guest.cs",
@@ -63,12 +79,11 @@
               "RelativeToolTip": "H-Api\\Models\\guest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T14:29:09.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T14:29:09.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "employee.cs",
               "DocumentMoniker": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\Models\\employee.cs",
               "RelativeDocumentMoniker": "H-Api\\Models\\employee.cs",
@@ -81,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "role.cs",
               "DocumentMoniker": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\Models\\role.cs",
               "RelativeDocumentMoniker": "H-Api\\Models\\role.cs",
@@ -89,12 +104,11 @@
               "RelativeToolTip": "H-Api\\Models\\role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T13:58:38.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T13:58:38.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "level.cs",
               "DocumentMoniker": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\Models\\level.cs",
               "RelativeDocumentMoniker": "H-Api\\Models\\level.cs",
@@ -102,25 +116,24 @@
               "RelativeToolTip": "H-Api\\Models\\level.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T13:51:52.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T13:51:52.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "room.cs",
               "DocumentMoniker": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\Models\\room.cs",
               "RelativeDocumentMoniker": "H-Api\\Models\\room.cs",
               "ToolTip": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\Models\\room.cs",
               "RelativeToolTip": "H-Api\\Models\\room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T12:46:52.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\appsettings.json",
               "RelativeDocumentMoniker": "H-Api\\appsettings.json",

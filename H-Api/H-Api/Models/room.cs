@@ -17,6 +17,7 @@ namespace H_Api.Models
         public int ResponsibleEmployee {  get; set; }
         [ForeignKey("ResponsibleEmployee")]
         public virtual ICollection<Room> ResponsibleRooms { get; set; }
+        public virtual ICollection<Reservation> Reservations { get; set; }
 
 
 

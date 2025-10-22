@@ -6,6 +6,6 @@
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Phone { get; set; }
-        public virtual ICollection<Guest> Guests { get; set; }
+        public virtual ICollection<Reservation> Reservations { get; set; }
     }
 }

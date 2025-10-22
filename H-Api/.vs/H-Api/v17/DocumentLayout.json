@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "H-Api\\Data\\AppDbContext.cs",
               "ToolTip": "D:\\Code related\\HotelAPI\\H-Api\\H-Api\\Data\\AppDbContext.cs",
               "RelativeToolTip": "H-Api\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T13:53:34.792Z",
               "EditorCaption": ""
@@ -91,8 +91,7 @@
               "RelativeToolTip": "H-Api\\Models\\employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T14:16:15.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T14:16:15.509Z"
             },
             {
               "$type": "Document",
@@ -128,8 +127,7 @@
               "RelativeToolTip": "H-Api\\Models\\room.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:46:52.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T12:46:52.11Z"
             },
             {
               "$type": "Document",

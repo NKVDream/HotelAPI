@@ -1,4 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using H_Api.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddControllers();
+
+
+//var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -21,5 +32,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.MapControllers();
 app.Run();

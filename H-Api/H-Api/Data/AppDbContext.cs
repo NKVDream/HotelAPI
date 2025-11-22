@@ -5,10 +5,9 @@ namespace H_Api.Data
 {
     public class AppDbContext : DbContext
     {
-        // Конструктор для настройки контекста
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        // DbSet'ы - представляют таблицы в базе данных
+        // DbSet'ы с явным указанием названий таблиц
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Guest> Guests { get; set; }
         public DbSet<Room> Rooms { get; set; }
@@ -18,6 +17,14 @@ namespace H_Api.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // Явное указание названий таблиц
+            modelBuilder.Entity<Employee>().ToTable("employee");
+            modelBuilder.Entity<Guest>().ToTable("guest");
+            modelBuilder.Entity<Room>().ToTable("room");
+            modelBuilder.Entity<Reservation>().ToTable("reservation");
+            modelBuilder.Entity<Role>().ToTable("role");
+            modelBuilder.Entity<Level>().ToTable("level");
+
             // Настройка связей между таблицами
 
             // Employee -> Role

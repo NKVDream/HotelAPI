@@ -49,3 +49,4 @@ D:\Code related\HotelAPI\H-Api\H-Api\obj\Debug\net8.0\refint\H-Api.dll
 D:\Code related\HotelAPI\H-Api\H-Api\obj\Debug\net8.0\H-Api.pdb
 D:\Code related\HotelAPI\H-Api\H-Api\obj\Debug\net8.0\H-Api.genruntimeconfig.cache
 D:\Code related\HotelAPI\H-Api\H-Api\obj\Debug\net8.0\ref\H-Api.dll
+D:\Code related\HotelAPI\H-Api\H-Api\bin\Debug\net8.0\H-Api.staticwebassets.runtime.json

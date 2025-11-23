@@ -1392,5 +1392,28 @@
         "additionalProperties": false
       }
     }
-  }
+  },
+  "tags": [
+    {
+      "name": "Employees"
+    },
+    {
+      "name": "Guests"
+    },
+    {
+      "name": "Levels"
+    },
+    {
+      "name": "Reservations"
+    },
+    {
+      "name": "Roles"
+    },
+    {
+      "name": "Rooms"
+    },
+    {
+      "name": "WeatherForecast"
+    }
+  ]
 }

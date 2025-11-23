@@ -4,6 +4,10 @@ namespace H_Api.Models
 {
     public class Role
     {
+        public Role()
+        {
+            Employees = new HashSet<Employee>();
+        }
         [Column("id")]
         public int Id { get; set; }
 

@@ -182,27 +182,6 @@
   },
   {
     "ContainingType": "H_Api.Controllers.GuestsController",
-    "Method": "PutGuest",
-    "RelativePath": "api/Guests/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "guest",
-        "Type": "H_Api.Models.Guest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "H_Api.Controllers.GuestsController",
     "Method": "DeleteGuest",
     "RelativePath": "api/Guests/{id}",
     "HttpMethod": "DELETE",

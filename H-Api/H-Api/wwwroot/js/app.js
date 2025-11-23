@@ -61,11 +61,13 @@ class HotelApp {
         }
 
         const formData = {
-            name: name.value,
-            surname: surname.value,
-            phone: phone.value,
-            email: email.value || ''
+            name: name.value.trim(),
+            surname: surname.value.trim(),
+            phone: phone.value.trim(),
+            email: email.value.trim() || ''
         };
+
+        console.log('📤 Отправляемые данные:', formData);
 
         // Валидация
         if (!formData.name || !formData.surname || !formData.phone) {
@@ -74,8 +76,6 @@ class HotelApp {
         }
 
         try {
-            console.log('Creating guest:', formData);
-
             const response = await fetch(`${API_BASE}/Guests`, {
                 method: 'POST',
                 headers: {
@@ -84,26 +84,24 @@ class HotelApp {
                 body: JSON.stringify(formData)
             });
 
+            console.log('📥 Ответ сервера:', response.status, response.statusText);
+
             if (response.ok) {
                 const newGuest = await response.json();
+                console.log('✅ Создан гость:', newGuest);
 
-                // Очистка формы
                 document.getElementById('guestForm').reset();
-
-                // Перезагрузка списка гостей
                 await this.loadGuests();
-
-                // Автоматически выбираем нового гостя в форме бронирования
                 document.getElementById('guestSelect').value = newGuest.id;
-
-                alert('✅ Гость успешно добавлен и выбран для бронирования!');
+                alert('✅ Гость успешно добавлен!');
             } else {
+                // Получим подробную ошибку от сервера
                 const errorText = await response.text();
-                console.error('Server error:', errorText);
-                alert('❌ Ошибка при добавлении гостя: ' + response.status);
+                console.error('❌ Ошибка сервера:', errorText);
+                alert('❌ Ошибка при добавлении гостя: ' + errorText);
             }
         } catch (error) {
-            console.error('Ошибка:', error);
+            console.error('💥 Ошибка:', error);
             alert('❌ Ошибка при добавлении гостя: ' + error.message);
         }
     }
@@ -256,7 +254,7 @@ class HotelApp {
                 </div>
                 <div class="reservation-actions">
                     <button class="btn btn-danger" onclick="app.deleteReservation(${reservation.id})">
-                        ❌ Удалить
+                        Удалить
                     </button>
                 </div>
             </div>
@@ -272,7 +270,7 @@ class HotelApp {
         const endDate = document.getElementById('endDate');
 
         if (!guestSelect || !roomSelect || !employeeSelect || !startDate || !endDate) {
-            alert('❌ Не все поля формы найдены');
+            alert('Не все поля формы найдены');
             return;
         }
 
@@ -286,7 +284,7 @@ class HotelApp {
 
         // Валидация
         if (!formData.guestID || !formData.roomID || !formData.employeeID || !formData.startDate || !formData.endDate) {
-            alert('❌ Заполните все поля');
+            alert('Заполните все поля');
             return;
         }
 
@@ -306,11 +304,11 @@ class HotelApp {
                 document.getElementById('reservationForm').reset();
                 // Перезагрузка списка
                 await this.loadReservations();
-                alert('✅ Резервация успешно создана!');
+                alert('Резервация успешно создана!');
             } else {
                 const errorText = await response.text();
                 console.error('Server error:', errorText);
-                alert('❌ Ошибка при создании резервации: ' + response.status);
+                alert('Ошибка при создании резервации: ' + response.status);
             }
         } catch (error) {
             console.error('Ошибка:', error);
@@ -333,13 +331,13 @@ class HotelApp {
 
             if (response.ok) {
                 await this.loadReservations();
-                alert('✅ Резервация удалена!');
+                alert('Резервация удалена!');
             } else {
-                alert('❌ Ошибка при удалении резервации: ' + response.status);
+                alert('Ошибка при удалении резервации: ' + response.status);
             }
         } catch (error) {
             console.error('Ошибка:', error);
-            alert('❌ Ошибка при удалении резервации: ' + error.message);
+            alert('Ошибка при удалении резервации: ' + error.message);
         }
     }
 

@@ -4,6 +4,11 @@ namespace H_Api.Models
 {
     public class Employee
     {
+        public Employee()
+        {
+            ResponsibleRooms = new HashSet<Room>();
+            Reservations = new HashSet<Reservation>();
+        }
         [Column("id")]
         public int Id { get; set; }
 

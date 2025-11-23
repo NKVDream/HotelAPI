@@ -4,6 +4,10 @@ namespace H_Api.Models
 {
     public class Room
     {
+        public Room()
+        {
+            Reservations = new HashSet<Reservation>();
+        }
         [Column("id")]
         public int Id { get; set; }
 

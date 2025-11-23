@@ -1,5 +1,5 @@
+wwwroot\index.html
+wwwroot\js\app.js
 wwwroot\css\site.css
 wwwroot\images\logo.png
 wwwroot\images\TLogo.png
-wwwroot\js\app.js
-wwwroot\index.html

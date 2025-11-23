@@ -4,6 +4,10 @@ namespace H_Api.Models
 {
     public class Level
     {
+        public Level()
+        {
+            Rooms = new HashSet<Room>();
+        }
         [Column("id")]
         public int Id { get; set; }
 

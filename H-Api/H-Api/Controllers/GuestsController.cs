@@ -44,39 +44,18 @@ public class GuestsController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Guest>> PostGuest(Guest guest)
     {
+        // Игнорируем проверку навигационных свойств
+        ModelState.Remove("Reservations");
+
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+
         _context.Guests.Add(guest);
         await _context.SaveChangesAsync();
 
         return CreatedAtAction("GetGuest", new { id = guest.Id }, guest);
-    }
-
-    // PUT: api/Guests/5
-    [HttpPut("{id}")]
-    public async Task<IActionResult> PutGuest(int id, Guest guest)
-    {
-        if (id != guest.Id)
-        {
-            return BadRequest();
-        }
-
-        _context.Entry(guest).State = EntityState.Modified;
-
-        try
-        {
-            await _context.SaveChangesAsync();
-        }
-        catch (DbUpdateConcurrencyException)
-        {
-            if (!GuestExists(id))
-            {
-                return NotFound();
-            }
-            else
-            {
-                throw;
-            }
-        }
-        return NoContent();
     }
 
     // DELETE: api/Guests/5
